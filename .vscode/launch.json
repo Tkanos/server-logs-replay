@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceRoot}",
+            "env": {},
+            "args": ["-p", "test.log", "-d", " ", "-pn", "3", "-qsn", "4", "-vn", "9", "-s", "http://localhost:8080/", "-bl", "5", "-bn", "-1", "-bt", "-1"]
+        }
+    ]
+}
