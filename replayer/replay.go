@@ -116,9 +116,18 @@ func replaceCharBetweenQuotes(line string, delimiter string, replaceDelimiter bo
 }
 
 func httpCall(info []string, args Arguments) {
-
-	client := &http.Client{}
+	var client http.Client
+	var req *http.Request
 	var url string
+
+	if info[args.Parse.VerbColumn-1] == "GET" {
+		url = args.Http.BaseUri + info[args.Parse.UriStemColumn-1] + info[args.Parse.UriQueryColumn]
+		req, _ = http.NewRequest("GET", url, nil)
+
+	} else if info[args.Parse.VerbColumn-1] == "POST" && args.Parse.BodyTypeColumn > 0 && args.Parse.BodyColumn > 0 {
+		url = args.Http.BaseUri + info[args.Parse.UriStemColumn-1]
+		req, _ = http.NewRequest("POST", url, bytes.NewBuffer([]byte(info[args.Parse.BodyColumn])))
+	}
 
 	if args.Http.Headers != "" {
 		//TODO
@@ -128,13 +137,6 @@ func httpCall(info []string, args Arguments) {
 		//TODO
 	}
 
-	if info[args.Parse.VerbColumn-1] == "GET" {
-		url = args.Http.BaseUri + info[args.Parse.UriStemColumn-1] + info[args.Parse.UriQueryColumn]
-		client.Get(url)
+	client.Do(req)
 
-	} else if info[args.Parse.VerbColumn-1] == "POST" && args.Parse.BodyTypeColumn > 0 && args.Parse.BodyColumn > 0 {
-		url = args.Http.BaseUri + info[args.Parse.UriStemColumn-1]
-
-		client.Post(url, info[args.Parse.BodyTypeColumn], bytes.NewBuffer([]byte(info[args.Parse.BodyColumn])))
-	}
 }

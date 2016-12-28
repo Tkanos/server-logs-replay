@@ -1,4 +1,3 @@
 - Multiple Files
-- Prepare request
-- Send request
-- Filter
+- RegExp
+- Headers, cookies
