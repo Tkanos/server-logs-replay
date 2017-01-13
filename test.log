@@ -1,0 +1,54 @@
+#Software: IIS Advanced Logging Module
+#Version: 1.0
+#Start-Date: 2016-07-20 08:20:30.278
+#Fields:  X-Forwarded-For cs(User-Agent) cs-uri-stem cs-uri-query time-local TimeTakenMS sc-status cs(Referer) cs-method sc-bytes cs-bytes
+"10.100.16.103, 10.100.16.1" - /api/articles/similar articleNr=833225960&categoryNr=40980&keywords=Michael+Kors+Jet+Set+Tasche&articlesCount=6&hasPicture=True&include=ArticleNr%2cCategoryNr%2cArticleUrl%2cTitle%2cTitleFr%2cLastBid%2cBuyNowPrice%2cOfferType%2cBidsCount&getImages=True 10:20:29.996 31 200 - GET 13445 502
+- - /api/recommendation/isalive - 10:20:30.075 15 200 - GET 280 84
+"10.100.16.84, 10.100.16.1" - /api/articles/similar articleNr=806382436&categoryNr=39744&keywords=SET+R%25u00fcttelpatsche+1%2c9+PS+%2b+Bohle+180+cm&articlesCount=6&hasPicture=True&include=ArticleNr%2cCategoryNr%2cArticleUrl%2cTitle%2cTitleFr%2cLastBid%2cBuyNowPrice%2cOfferType%2cBidsCount&getImages=True 10:20:30.106 46 200 - GET 13673 525
+- - /api/recommendation/isalive - 10:20:30.684 0 200 - GET 280 84
+"10.100.16.82, 10.100.16.1" - /api/articles/similar articleNr=825546322&categoryNr=39912&keywords=Parkside+PHD130++D3+Hochdruckreiniger&articlesCount=6&hasPicture=True&include=ArticleNr%2cCategoryNr%2cArticleUrl%2cTitle%2cTitleFr%2cLastBid%2cBuyNowPrice%2cOfferType%2cBidsCount&getImages=True 10:20:30.793 31 200 - GET 13177 512
+- - /api/recommendation/isalive - 10:20:30.981 0 200 - GET 280 84
+- - /api/recommendation/isalive - 10:20:31.075 0 200 - GET 280 84
+- - /api/recommendation/isalive - 10:20:31.684 0 200 - GET 280 84
+- - /api/recommendation/isalive - 10:20:31.981 0 200 - GET 280 84
+- - /api/recommendation/isalive - 10:20:32.075 0 200 - GET 280 84
+- - /api/recommendation/isalive - 10:20:32.700 15 200 - GET 280 84
+"10.100.16.105, 10.100.16.1" - /api/articles/similar articleNr=840601350&categoryNr=78158&keywords=DJI+INSPIRE+1&articlesCount=6&hasPicture=True&include=ArticleNr%2cCategoryNr%2cArticleUrl%2cTitle%2cTitleFr%2cLastBid%2cBuyNowPrice%2cOfferType%2cBidsCount&getImages=True 10:20:32.887 31 200 - GET 13268 489
+"10.100.16.102, 10.100.16.1" - /api/articles/similar articleNr=834589450&categoryNr=42388&keywords=Digitale+Armbanduhr+mit+Stoppuhr%2c&articlesCount=6&hasPicture=True&include=ArticleNr%2cCategoryNr%2cArticleUrl%2cTitle%2cTitleFr%2cLastBid%2cBuyNowPrice%2cOfferType%2cBidsCount&getImages=True 10:20:32.903 31 200 - GET 14640 510
+"10.100.16.84, 10.100.16.1" - /api/articles/similar articleNr=760828922&categoryNr=39869&keywords=Rasenm%25u00e4her+OKAY+HM+40&articlesCount=6&hasPicture=True&include=ArticleNr%2cCategoryNr%2cArticleUrl%2cTitle%2cTitleFr%2cLastBid%2cBuyNowPrice%2cOfferType%2cBidsCount&getImages=True 10:20:32.965 31 200 - GET 12919 502
+- - /api/recommendation/isalive - 10:20:32.996 15 200 - GET 280 84
+- - /api/recommendation/isalive - 10:20:33.090 15 200 - GET 280 84
+- - /api/recommendation/isalive - 10:20:33.700 0 200 - GET 280 84
+"10.100.16.102, 10.100.16.1" - /api/articles/similar articleNr=826573992&categoryNr=42326&keywords=Herz+Halskette+Swarovski+Elements&articlesCount=6&hasPicture=True&include=ArticleNr%2cCategoryNr%2cArticleUrl%2cTitle%2cTitleFr%2cLastBid%2cBuyNowPrice%2cOfferType%2cBidsCount&getImages=True 10:20:33.825 46 200 - GET 13127 509
+"10.100.16.83, 10.100.16.1" - /api/articles/similar articleNr=808131224&categoryNr=38507&keywords=Yamaha+RX-V750&articlesCount=6&hasPicture=True&include=ArticleNr%2cCategoryNr%2cArticleUrl%2cTitle%2cTitleFr%2cLastBid%2cBuyNowPrice%2cOfferType%2cBidsCount&getImages=True 10:20:33.871 31 200 - GET 13217 488
+- - /api/recommendation/isalive - 10:20:33.997 0 200 - GET 280 84
+- - /api/recommendation/isalive - 10:20:34.090 0 200 - GET 280 84
+"10.100.16.83, 10.100.16.1" - /api/articles/similar articleNr=826225060&categoryNr=39048&keywords=B%25u00fcro%2fSchreibtisch+200*90cm&articlesCount=6&hasPicture=True&include=ArticleNr%2cCategoryNr%2cArticleUrl%2cTitle%2cTitleFr%2cLastBid%2cBuyNowPrice%2cOfferType%2cBidsCount&getImages=True 10:20:34.215 31 200 - GET 13019 510
+"10.100.16.101, 10.100.16.1" - /api/articles/similar articleNr=841050062&categoryNr=49544&keywords=Tag+Heuer+Monaco+Twenty-Four+Calibre+36&excludedCustomerIds=403936665&articlesCount=6&hasPicture=True&include=ArticleNr%2cCategoryNr%2cArticleUrl%2cTitle%2cTitleFr%2cLastBid%2cBuyNowPrice%2cOfferType%2cBidsCount&getImages=True 10:20:34.528 31 200 - GET 13683 544
+- - /api/recommendation/isalive - 10:20:34.700 0 200 - GET 280 84
+- - /api/recommendation/isalive - 10:20:34.996 0 200 - GET 280 84
+- - /api/recommendation/isalive - 10:20:35.090 0 200 - GET 280 84
+"10.100.16.81, 10.100.16.1" - /api/articles/similar articleNr=826241646&categoryNr=38507&keywords=SONY+FM%2fAM+Stereo+Receiver+STR-LV500&articlesCount=6&hasPicture=True&include=ArticleNr%2cCategoryNr%2cArticleUrl%2cTitle%2cTitleFr%2cLastBid%2cBuyNowPrice%2cOfferType%2cBidsCount&getImages=True 10:20:35.278 31 200 - GET 13352 513
+- - /api/recommendation/isalive - 10:20:35.700 0 200 - GET 280 84
+- - /api/recommendation/isalive - 10:20:36.012 15 200 - GET 280 84
+- - /api/recommendation/isalive - 10:20:36.106 15 200 - GET 280 84
+"10.100.16.102, 10.100.16.1" - /api/articles/similar articleNr=826805748&categoryNr=41832&keywords=wundersch%25u00f6ne+holzpuppe&articlesCount=6&hasPicture=True&include=ArticleNr%2cCategoryNr%2cArticleUrl%2cTitle%2cTitleFr%2cLastBid%2cBuyNowPrice%2cOfferType%2cBidsCount&getImages=True 10:20:36.246 31 200 - GET 12879 505
+"10.100.16.105, 10.100.16.1" - /api/articles/similar articleNr=770592766&categoryNr=68903&keywords=M%25u00e4rklin+39801+Am+4%2f4+SBB%2fCFF%2fFFS&articlesCount=6&hasPicture=True&include=ArticleNr%2cCategoryNr%2cArticleUrl%2cTitle%2cTitleFr%2cLastBid%2cBuyNowPrice%2cOfferType%2cBidsCount&getImages=True 10:20:36.512 46 200 - GET 14261 520
+- - /api/recommendation/isalive - 10:20:36.715 0 200 - GET 280 84
+"10.100.16.103, 10.100.16.1" - /api/articles/similar articleNr=833240434&categoryNr=63265&keywords=Yves+Camani+UNISSON+Unisex&articlesCount=6&hasPicture=True&include=ArticleNr%2cCategoryNr%2cArticleUrl%2cTitle%2cTitleFr%2cLastBid%2cBuyNowPrice%2cOfferType%2cBidsCount&getImages=True 10:20:36.965 171 200 - GET 13236 501
+- - /api/recommendation/isalive - 10:20:37.012 0 200 - GET 280 84
+- - /api/recommendation/isalive - 10:20:37.106 0 200 - GET 280 84
+- - /api/recommendation/isalive - 10:20:37.715 0 200 - GET 280 84
+"10.100.16.104, 10.100.16.1" - /api/articles/similar articleNr=841628540&categoryNr=39329&keywords=HP+MicroServer+Gen8+Xeon+E3-1220+8GB+RAM&articlesCount=6&hasPicture=True&include=ArticleNr%2cCategoryNr%2cArticleUrl%2cTitle%2cTitleFr%2cLastBid%2cBuyNowPrice%2cOfferType%2cBidsCount&getImages=True 10:20:37.778 46 200 - GET 14333 516
+- - /api/recommendation/isalive - 10:20:38.012 0 200 - GET 280 84
+- - /api/recommendation/isalive - 10:20:38.106 0 200 - GET 280 84
+"10.100.16.82, 10.100.16.1" - /api/articles/similar articleNr=782852974&categoryNr=40993&keywords=Gucci+Tasche+Handtasche+Necessaire&articlesCount=6&hasPicture=True&include=ArticleNr%2cCategoryNr%2cArticleUrl%2cTitle%2cTitleFr%2cLastBid%2cBuyNowPrice%2cOfferType%2cBidsCount&getImages=True 10:20:38.715 46 200 - GET 13501 508
+- - /api/recommendation/isalive - 10:20:38.731 15 200 - GET 280 84
+- - /api/recommendation/isalive - 10:20:39.028 15 200 - GET 280 84
+"10.100.16.82, 10.100.16.1" - /api/articles/similar articleNr=820843020&categoryNr=42102&keywords=M%25u00f6bel+Pfister+Gutschein+20%2c+50%2c+100%2c+200&articlesCount=6&hasPicture=True&include=ArticleNr%2cCategoryNr%2cArticleUrl%2cTitle%2cTitleFr%2cLastBid%2cBuyNowPrice%2cOfferType%2cBidsCount&getImages=True 10:20:39.106 46 200 - GET 13048 528
+- - /api/recommendation/isalive - 10:20:39.121 15 200 - GET 280 84
+"10.100.16.84, 10.100.16.1" - /api/articles/similar articleNr=814084058&categoryNr=38882&keywords=6+alte+Lupen+Lesehilfen&articlesCount=6&hasPicture=True&include=ArticleNr%2cCategoryNr%2cArticleUrl%2cTitle%2cTitleFr%2cLastBid%2cBuyNowPrice%2cOfferType%2cBidsCount&getImages=True 10:20:39.121 124 200 - GET 12858 497
+- - /api/recommendation/isalive - 10:20:39.731 0 200 - GET 280 84
+- - /api/recommendation/isalive - 10:20:40.028 0 200 - GET 280 84
+- - /api/recommendation/isalive - 10:20:40.121 0 200 - GET 280 84
+- - /api/recommendation/isalive - 10:20:40.731 0 200 - GET 280 84
